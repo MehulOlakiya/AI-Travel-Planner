@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# AI Travel Planner App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full-stack, cross-platform mobile application that lets users plan personalized trips with AI-driven recommendations. Built with React Native, Expo, Firebase, and Gemini AI.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+- **User Authentication**  
+  Sign up and sign in using Firebase Authentication.  
+- **Trip Planning**  
+  Create and customize trip itineraries, select dates with a React Native calendar, and set a budget.  
+- **AI Itinerary Generation**  
+  Gemini AI (Google’s Gini model) generates personalized day-by-day plans based on user preferences.  
+- **Place Search Autocomplete**  
+  Integrates Google Places Autocomplete for seamless destination lookup.  
+- **Interactive Trip Cards**  
+  Displays generated itineraries with images and key details in a clean card layout.  
+- **Custom UI**  
+  Uses Google Fonts and Expo’s theming to deliver a polished user experience. :contentReference[oaicite:0]{index=0}
 
+## 📦 Tech Stack
+
+- **React Native** & **Expo** – Cross-platform mobile development.  
+- **Firebase** – Authentication, Firestore database, and storage.  
+- **Gemini AI (Gini API)** – AI-powered content generation.  
+- **Google Places API** – Autocomplete for destination search.  
+- **React Native Calendar** – Date selection UI component.  
+- **Google Fonts** – Custom typography. :contentReference[oaicite:1]{index=1}
+
+## 🛠 Installation & Setup
+
+1. **Clone the repository**  
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/<your-username>/ai-travel-planner-app.git
+   cd ai-travel-planner-app
