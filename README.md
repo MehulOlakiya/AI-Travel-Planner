@@ -24,7 +24,7 @@ A full-stack, cross-platform mobile application that lets users plan personalize
 - **Gemini AI (Gini API)** – AI-powered content generation.  
 - **Google Places API** – Autocomplete for destination search.  
 - **React Native Calendar** – Date selection UI component.  
-- **Google Fonts** – Custom typography
+- **Google Fonts** – Custom typography.
 
 ## 🛠 Installation & Setup
 
